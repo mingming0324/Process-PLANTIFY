@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Process-PLANTIFY</title>
+<!-- jquery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+crossorigin="anonymous"
+referrerpolicy="no-referrer"></script>
+  <script src="./script.js" defer></script>
+
+<!-- GSAP -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- GSAP-SCROLL -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"></script>
+
+      <!-- FONT -->
+  <!-- 폰트 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/futura-std-4" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<link href="https://db.onlinewebfonts.com/c/3fc60f9f88b2e3eb3227278569c7cc5a?family=ISOCP2" rel="stylesheet" type="text/css"/>
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<!-- main -->
+  <section class="main con">
+    <div class="main_wrap flex">
+      <div class="main-left_text-wrap flex">
+        <span class="Static">Static Website</span>
+
+        <div class="main_left-box flex">
+          <div class="main-title-box flex">
+            <span class="number">02.</span>
+  
+            <div class="main-titile flex">
+              <h1>RAZER KOREA</h1>
+              <span class="title-text">레이저 코리아 웹사이트 리디자인</span>
+            </div>
+          </div>
+  
+          <div class="blid-box flex">
+            <div class="blid flex">
+              <h5>Contribution</h5>
+              <span class="Contr-text">
+                1인 프로젝트 (UI디자인 100%)
+              </span>
+            </div>
+  
+            <div class="da-too flex">
+              <div class="date flex">
+                <h5>Date</h5>
+                <span class="date-text">
+                  2025.07.22 ~ 2025.09.24
+                </span>
+              </div>
+              <div class="tool flex">
+                <h5>Tool</h5>
+                <div class="tool-img flex">
+                  <img src="./imgs/tool-icon_1.png" alt="">
+                  <img src="./imgs/tool-icon_2.png" alt="">
+                  <img src="./imgs/tool-icon_3.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="main-img_text-box flex">
+        <div class="main_img-box">
+          <img src="./imgs/main.png" alt="">
+        </div>
+
+        <div class="main-right_text-box flex">
+          <span class="name">
+            2025, Kim Minche
+          </span>
+          <span class="grid">
+            1920 GRID SYSTEM
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- main -->
+
+<!-- overview -->
+<section class="overview con">
+  <div class="overv_wrap">
+    <div class="overv_text-wrap flex">
+      <span class="overview-text">Overview</span>
+
+      <div class="overv_text-box flex">
+        <h1><span class="title-bold">미래의 기술</span>을 연결하는 <br>
+          <span class="title-bold">지속 가능</span>한 게이밍 브랜드</h1>
+
+          <p>레이저는 첨단 기술과 친환경적 비전을 결합하여 미래 지향적 게 <br>
+            이밍 문화를 선도합니다. 이번 리디자인은 이러한 브랜드 철학을  <br>
+            시각적으로 반영하고, 사용자 경험을 기술적 감각으로 재해석하 <br>
+            기 위해 진행되었습니다.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- overview -->
+
+<!-- Background -->
+<section class="Background con">
+  <div class="backg_wrap flex">
+    <div class="backg_text-box flex">
+      <h1>background</h1>
+      <p>고도화된 기술력과 미래지향적인 브랜드와 달리 정적이며 브랜드가 추구하는 혁신적 감각을 충분히 전달하지 못하고 있습니다. <br> 
+        이를 보완하기 위해 “미래, 기술 혁신, 지속 가능성”키워드를 기반으로 기술적 감각을 포함한 비주얼을 제안합니다.</p>
+    </div>
+  </div>
+</section>
+<!-- Background -->
+
+<!-- Usability Testing -->
+<section class="Usability-Testing con">
+  <div class="usab_wrap flex">
+    <div class="usab_icon usab_icon-1">
+      <img src="./imgs/usabil_img1.png" alt="">
+    </div>
+    <div class="usab_icon usab_icon-2">
+      <img src="./imgs/usabil_img2.png" alt="">
+    </div>
+
+    <div class="usab_text-box flex">
+      <h1>Usability Testing</h1>
+      <span>레이저만의 특색을 살린 디자인</span>
+    </div>
+
+    <div class="usab_content-box flex">
+      <div class="usab_content-text flex">
+        <span>AS-IS</span>
+        <span>TO-BE</span>
+      </div>
+
+      <div class="usab_content flex">
+        <div class="content_asis">
+          <ul class="as-is flex">
+            <li class="as-is_item">
+              <span>
+                브랜드의 기술적 혁신성과 미래적 이미지에 비해, 웹사 <br>
+                이트는 시각적 인터랙션이 부족하고 정적인 인상을 줌.</span>
+            </li>
+            <li class="as-is_item">
+              <span>
+                신규 사용자에게 복잡한 네비게이션 구조와 정보 전달 <br>
+                의 우선순위가 명확하지 않아 탐색 경험이 떨어짐.
+              </span>
+            </li>
+            <li class="as-is_item">
+              <span>
+                지속 가능성, 친환경 기술 등 브랜드의 새로운 방향성이<br>
+                사이트 콘텐츠나 디자인 톤에 반영되지 않음.
+              </span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="content_line flex">
+          <ul class="c-line-box flex">
+            <li class="c-line"><img src="./imgs/content-line.png" alt=""></li>
+            <li class="c-line"><img src="./imgs/content-line.png" alt=""></li>
+            <li class="c-line"><img src="./imgs/content-line.png" alt=""></li>
+          </ul>
+        </div>
+
+        <div class="content_tobe">
+          <ul class="to-be flex">
+            <li class="tobe-item">
+              <span>
+                3D 모션, 라인 플로우, RGB 네온 빛 효과 등 <br>
+                을 활용해 브랜드의 첨단성과 역동성을 표현.</span>
+            </li>
+            <li class="tobe-item">
+              <span>
+                직관적인 인터페이스와 간결한 네비게이션 구조로 <br>
+                신규 이용자도 쉽게 접근 가능한 UX 제공.</span>
+            </li>
+            <li class="tobe-item">
+              <span>
+                친환경적 색감(블랙·그린 중심), 투명감 있는 인터페 <br>
+                이스 등으로 브랜드의 ESG 비전을 시각적으로 전달.
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Usability Testing -->
+
+<!-- Design Cencept -->
+<section class="Design-Cencept con">
+  <div class="de-cent_wrap flex">
+    <div class="de-cent_text-box flex">
+      <h1 class="de-cent">Design Cencept</h1>
+      <p>브랜드가  가지고 있는 미래적이고, 자연친화적인 <br>
+        무드를 살려 새로운 브랜드 웹사이트 컨셉을 도출  </p>
+    </div>
+
+    <div class="de-cent_item-box flex">
+      <div class="Circle-box flex">
+        <div class="Circle-1 flex">
+          <span>미래지향적 <br>
+            비주얼 인터랙션</span>
+        </div>
+        <div class="Circle-2 flex">
+          <span>지속 가능성을 <br>
+            반영한 디자인</span>
+        </div>
+        <div class="Circle-3 flex">
+          <span>
+            미래지향적이고 지속가능한 <br>
+            아이덴티티를 경험할 수 있는 <br>
+            웹사이트</span>
+        </div>
+      </div>
+
+      <div class="de-cent_item-text">
+        <ul class="de-cent_text flex">
+          <li class="de_cent_item flex">
+            <h5>Futuristic</h5>
+            <p>라인 형태의 네온 RGB 조명, 빛의 흐름을 <br>
+              시각화한 인터랙션을 추가한다.</p>
+          </li>
+          <li class="de_cent_item flex">
+            <h5>Sustainable</h5>
+            <p>투명한 레이어, 자연의 흐름을 닮은 유기적 곡선, <br> 
+              그린 톤 컬러로 포인트을 준다.</p>
+          </li>
+          <li class="de_cent_item flex">
+            <h5>Visual Tone and Manner</h5>
+            <p>어두운 베이스 위에 발광하는 RGB 라인과 입체적<br>
+              빛의 패턴으로 첨단 기술력과 지속 가능한 미래 감 <br>
+              각을 조화롭게 표현한다.</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Design Cencept -->
+
+<!-- Design System -->
+<section class="Design-System con">
+  <div class="de-sys_wrap flex">
+    <div class="typeface flex">
+      <span class="de-syetem">Design-System</span>
+
+      <div class="de-sys-item flex">
+        <div class="de-sys-title">
+          <h1>TYPEFACE</h1>
+        </div>
+        
+
+        <div class="typo-text-box flex">
+          <div class="typo-text">
+            <ul class="typo flex">
+              <li class="SONGER"><span>Bebas Neue</span></li>
+              <li class="Racing"><span>Anton</span></li>
+              <li class="Pretendad"><span>Pretendad</span></li>
+            </ul>
+          </div>
+
+          <div class="typo-img-box">
+            <img src="./imgs/de-system_img1.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="color flex">
+      <div class="de-sys-title">
+        <h1 class="color-text">COLOR</h1>
+      </div>
+
+
+      <div class="color-Pallet flex">
+        <ul class="pallet flex">
+          <li class="flex">
+            <div class="color-chip color-chip-1"></div>
+
+            <div class="color-name flex">
+              <span class="fff">#ffffff</span>
+              <span class="name">White</span>
+            </div>
+          </li>
+          <li class="flex">
+            <div class="color-chip color-chip-2"></div>
+
+            <div class="color-name flex">
+              <span class="fff">#00FF00</span>
+              <span class="name">Neon Green</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Design System -->
+
+<!-- Design Output -->
+<section class="Design-Output con">
+  <div class="de-outp_wrap flex">
+    <div class="finish-line">
+      <img src="./imgs/finish-line.png" alt="">
+    </div>
+    <div class="de-outp_text-box de-outp_text-box1">
+      <h5>Concept</h5>
+      <div class="de_text-box">
+        <p>
+          레이저의 미래지향적 기술력과 과학적 정밀함, 그리고 지속 가<br>
+          능한 비전을 시각적으로 재해석하며 빛의 흐름, 라인 인터랙션,<br>
+          네온 그린 포인트를 통해 혁신적인 기술 감성과 친환경적 방향<br>
+          성을 함께 표현했습니다.
+        </p>
+      </div>
+
+    </div>
+
+    <div class="de-outp_img-box de-outp_img-box1 flex">
+      <img src="./imgs/finish_img1.png" alt="">
+      <img class="margin" src="./imgs/finish_img2.png" alt="">
+    </div>
+
+    <div class="de-outp_img-box de-outp_img-box2">
+      <img src="./imgs/finish_img3.png" alt="">
+
+      <div class="de-outp_text-box de-outp_text-box2">
+        <h5>Main Page</h5>
+        <p>주요 제품을 슬라이드 형식으로 노출하며, <br>
+          미래적인 인터랙션과 버튼 포인트로 브랜<br>
+          드의 에너지를 강조했습니다.</p>
+      </div>
+    </div>
+
+    <div class="de-outp_img-box de-outp_img-box3">
+      <img src="./imgs/finish_img4.png" alt="">
+
+      <div class="de-outp_text-box de-outp_text-box3">
+        <h5>Collaboration  Page</h5>
+        <p>각 브랜드의 개성을 살리면서 레이저의 기 <br>
+          술적 정체성을 유지한 통합형 비주얼 무드<br>
+          를 구현했습니다.</p>
+      </div>
+    </div>
+
+    <div class="de-outp_img-box de-outp_img-box4">
+      <img src="./imgs/finish_img5.png  " alt="">
+
+      <div class="de-outp_text-box de-outp_text-box4">
+        <h5>New Page</h5>
+        <p>제품 중심의 단일 레이아웃으로 성능과 기술력을  <br>
+          직관적으로 전달해 레이저의 혁신성을 시각화했습니다.</p>
+      </div>
+    </div>
+
+    <div class="de-outp_btn-box flex">
+      <a href="https://mingming0324.github.io/razer_korea/">
+        <div class="de-outp_btn flex">
+          <h1>PLANTIFY</h1>
+          <span>바로가기</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+<!-- Design Output -->
+
+
+<!-- full -->
+<section class="full con"></section>
+<!-- full -->
+</body>
+</html>
