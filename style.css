@@ -159,7 +159,7 @@ body::-webkit-scrollbar-track {
   box-sizing: border-box;
 }
 .main_wrap {
-  
+  justify-content: space-between;
   position: relative;
 }
 
@@ -327,6 +327,7 @@ body::-webkit-scrollbar-track {
 
 .backg_wrap {
   align-items: center;
+  justify-content: center;
 }
 
 .backg_text-box {
@@ -355,7 +356,7 @@ body::-webkit-scrollbar-track {
 /* <!-- Background --> */
 
 /* <!-- Usability Testing --> */
-.Usability-Testing {
+/* .Usability-Testing {
   box-sizing: border-box;
   padding: 140px 108px 262px;
 }
@@ -410,8 +411,8 @@ body::-webkit-scrollbar-track {
 
 .usab_content .as-is .as-is_item {
   padding: 79px 22px;
-  background-color: #192418;
-  color: #546852;
+  background-color: #FFF5D8;
+  color: #CCC3AB;
   text-align: center;
   width: 532px;
   height: 224px;
@@ -476,7 +477,7 @@ body::-webkit-scrollbar-track {
   left: -20px;
   bottom: 40px;
   z-index: -1;
-}
+} */
 /* <!-- Usability Testing --> */
 
 /* <!-- Design Cencept --> */
@@ -539,7 +540,7 @@ body::-webkit-scrollbar-track {
   width: 255px;
   height: 255px;
   border-radius: 500px;
-  background-color: #F8775C;
+  background-color: #046746;
   justify-content: center;
   align-items: center;
   overflow: hidden;
@@ -552,14 +553,14 @@ body::-webkit-scrollbar-track {
   text-align: center;
   transform: translateY(100%);
   opacity: 0;
-  color: #015701;
+  color: #FFF9E7;
 }
 
 .Circle-box .Circle-2 {
   width: 265px;
   height: 265px;
   border-radius: 500px;
-  background-color: #fff;
+  background-color: #F8775C;
   justify-content: center;
   align-items: center;
 }
@@ -569,7 +570,7 @@ body::-webkit-scrollbar-track {
   font-weight: 600;
   line-height: 27px;
   text-align: center;
-  color: #015701;
+  color: #FFF9E7;
   transform: translateY(100%);
   opacity: 0;
 }
@@ -579,10 +580,10 @@ body::-webkit-scrollbar-track {
   width: 298px;
   height: 298px;
   border-radius: 500px;
-  background-color: rgba(65, 75, 64, .5);
+  background-color: rgba(254, 238, 190, .5);
   justify-content: center;
   align-items: center;
-  border: 2px solid rgba(0, 255, 0, .5);
+  border: 2px solid rgba(230, 62, 15, .5);
 }
 
 .Circle-box .Circle-3 span {
@@ -592,7 +593,7 @@ body::-webkit-scrollbar-track {
   text-align: center;
   transform: translateY(100%);
   opacity: 0;
-  color: #F8775C;
+  color: #046746;
 }
 
 .de-cent_text {
@@ -610,7 +611,7 @@ body::-webkit-scrollbar-track {
 .de-cent_text .de_cent_item h5 {
   font-size: 36px;
   font-weight: 500;
- font-family: 'SBAggroB';
+  font-family: 'SBAggroB';
   transform: translateY(100%);
   opacity: 0;
   color: #F8775C;
@@ -635,30 +636,32 @@ body::-webkit-scrollbar-track {
   box-sizing: border-box;
   padding: 114px 108px;
   flex-direction: column;
-  gap: 306px;
+  gap: 326px;
   height: 1080px;
 }
 
 .typeface .de-syetem {
   font-size: 22px;
   font-weight: 500;
+  color: #fff;
 }
 
 .typeface .de-sys-item {
   flex-direction: column;
-  gap: 234px;
+  gap: 274px;
 
 }
 
 .de-sys-title {
   overflow: hidden;
   text-align: center;
+  color: #FFF5D8;
 }
 
 .typeface .de-sys-item h1 {
   font-size: 48px;
   font-weight: 500;
- font-family: 'SBAggroB';
+  font-family: 'SBAggroB';
   text-align: center;
   transform: translateY(100%);
   opacity: 0;
@@ -681,17 +684,17 @@ body::-webkit-scrollbar-track {
 
 .typeface .de-sys-item .SONGER {
   color: #fff;
-  font-family: "Bebas Neue", sans-serif;
+  font-family: 'SBAggroB';
 }
 
 .typeface .de-sys-item .Racing {
- font-family: 'SBAggroB';
   color: #B7B7B7;
+  font-weight: 500;
 }
 
 .typeface .de-sys-item .Pretendad {
   color: #B7B7B7;
-  font-weight: 700;
+  font-family: 'Fanky Bubble Graffiti';
 }
 
 .color {
@@ -707,10 +710,11 @@ body::-webkit-scrollbar-track {
 .color .color-text {
   font-size: 48px;
   font-weight: 500;
- font-family: 'SBAggroB';
+  font-family: 'SBAggroB';
   text-align: center;
   transform: translateY(100%);
   opacity: 0;
+  color: #FFF5D8;
 }
 
 .color .color-Pallet {
@@ -732,11 +736,11 @@ body::-webkit-scrollbar-track {
   width: 120px;
   height: 120px;
   border-radius: 100px;
-  background-color: #fff;
+  background-color: #FFF9E7;
 }
 
 .color .pallet .color-chip-2 {
-  background-color:  #F8775C;;
+  background-color:  #046746;
 }
 
 .color .pallet .color-name {
@@ -746,11 +750,13 @@ body::-webkit-scrollbar-track {
 .color .pallet .color-name .fff {
   font-size: 14px;
   font-weight: 400;
+  color: #fff;
 }
 
 .color .pallet .color-name .name {
   font-size: 20px;
   font-weight: 500;
+  color: #fff;
 }
 /* <!-- Design System --> */
 
@@ -819,6 +825,7 @@ body::-webkit-scrollbar-track {
   width: 620px;
   transform: translateX(100%);
   opacity: 0;
+  border: 1px solid #F8775C;
 }
 
 
@@ -834,6 +841,7 @@ body::-webkit-scrollbar-track {
 .de-outp_img-box2 img {
   transform: translateX(-100%);
   opacity: 0;
+  border: 1px solid #F8775C;
 }
 
 .de-outp_text-box2 h5 {
@@ -847,6 +855,7 @@ body::-webkit-scrollbar-track {
 
 .de-outp_text-box2 {
   margin-top: 52px;
+  
 }
 
 .de-outp_img-box3 {
@@ -863,6 +872,7 @@ body::-webkit-scrollbar-track {
 .de-outp_img-box3 img {
   transform: translateX(100%);
   opacity: 0;
+  border: 1px solid #F8775C;
 }
 
 .de-outp_text-box3 h5 {
@@ -900,43 +910,45 @@ body::-webkit-scrollbar-track {
 
 .de-outp_btn-box {
   justify-content: center;
-  margin-top: 150px;
+  margin-top: 220px;
+
 }
 
 .de-outp_btn {
   width: 250px;
   height: 250px;
   border-radius: 500px;
-  background-color:  #F8775C;
+  background-color:  #046746;
   flex-direction: column;
   color: #fff;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 0 0px 0px rgba(0, 121, 0, 0.5);
+  box-shadow: 0 0 0px 0px rgba(248, 119, 92, 0.5);
   border-radius: 50%;
   animation-name: wave;
   animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
+  gap: 12px;
 }
 
 
 @keyframes wave {
-  0% {box-shadow: 0 0 0px 0px rgba(0, 121, 0, 0.5);}
+  0% {box-shadow: 0 0 0px 0px rgba(248, 119, 92, 0.5);}
   100% {box-shadow: 0 0 0px 20px rgba(18, 27, 17, 0);}
 }
 
 .de-outp_btn h1 {
-  font-size: 40px;
+  font-size: 30px;
  font-family: 'SBAggroB';
-  color: #003C00;
+  color: #FFF9E7;
 }
 
 .de-outp_btn span {
   font-size: 16px;
   font-weight: 500;
   position: relative;
-  color: #003C00;
+  color: #FFF9E7;
 }
 
 .de-outp_btn:hover span::after {
@@ -946,7 +958,7 @@ body::-webkit-scrollbar-track {
   left: 0;
   width: 100%;
   height: 1px;
-  background-color: #003C00;
+  background-color: #FFF9E7;
 }
 /* <!-- Design Output --> */
 
