@@ -695,6 +695,7 @@ body::-webkit-scrollbar-track {
 .typeface .de-sys-item .Pretendad {
   color: #B7B7B7;
   font-family: 'Fanky Bubble Graffiti';
+  white-space: nowrap;
 }
 
 .color {
